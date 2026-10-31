@@ -1,0 +1,1 @@
+{"name":"Local: T_primes","url":"c:\\Users\\HP\\Desktop\\codeforces\\binarysearch\\T_primes.cpp","tests":[{"id":1779268404498,"input":"3\n4 5 6\n","output":"YES\nNO\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\codeforces\\binarysearch\\T_primes.cpp","group":"local","local":true}

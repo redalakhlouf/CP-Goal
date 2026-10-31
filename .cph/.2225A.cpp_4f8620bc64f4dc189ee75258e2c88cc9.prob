@@ -1,0 +1,1 @@
+{"name":"Local: 2225A","url":"c:\\Users\\HP\\Desktop\\codeforces\\2225A.cpp","tests":[{"id":1779719189512,"input":"5\n1 2\n1 3\n1234567890 12345678900\n2 8\n7 84\n","output":"NO\nYES\nYES\nYES\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\codeforces\\2225A.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: partymonster","url":"c:\\Users\\HP\\Desktop\\codeforces\\partymonster.cpp","tests":[{"id":1779266717807,"input":"6\n2\n()\n2\n)(\n3\n(((\n6\n())(()\n4\n(()(\n5\n)()()\n","output":"YES\nYES\nNO\nYES\nNO\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\codeforces\\partymonster.cpp","group":"local","local":true}
