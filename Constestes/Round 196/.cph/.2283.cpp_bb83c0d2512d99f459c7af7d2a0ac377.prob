@@ -1,0 +1,1 @@
+{"name":"Local: 2283","url":"c:\\Users\\HP\\Desktop\\codeforces\\Constestes\\Round\\2283.cpp","tests":[{"id":1793805205370,"input":"8\n0 0\n2 6\n-5 -3\n-2 2\n-2 3\n-2 5\n-6 2\n0 4\n","output":"0\n4\n2\n0\n0\n2\n3\n3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\codeforces\\Constestes\\Round\\2283.cpp","group":"local","local":true}

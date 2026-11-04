@@ -18,7 +18,7 @@ void solve(){
     }
     ll result=0;
     int i=0;
-    int j=k; // pourqoui k et pas K+1
+    int j=k; // pourqoui k et pas K
     while(j<n){
         for(int l=j;l<n;l++){
           if(i==0){
