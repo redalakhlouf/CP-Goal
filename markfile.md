@@ -18,3 +18,25 @@
 ## deal with string :
  - pour ajouter a le dernier d'une word : ` string.push_back('a') `
  - pour creer une mot complete : ` word=string(total,'P') `
+
+## opertores xor and or 
+- ` XOR ^ ` : return 1 if two bits have different value if not return 1 
+    ## propriets:
+      - a ^ a =0
+      - a ^ 0 =a
+      - a ^ b=b ^ a
+      - a ^ b ^ a = b 
+    ## implementation :
+    int r = a ^ a
+    int r=0 for(x:a) r^=x
+- ` OR ` :return 1 if an elmenet have one bit 
+   ## propriets:
+     - a|a=a
+     - a|0=a
+   ## implementation:
+   int r=0
+   for(x:a) r|=a
+- ` << ` : to shit or crease all bits by 1 
+  - int r =1 << 2 -> r=2 use like r*2 
+
+

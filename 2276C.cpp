@@ -18,7 +18,7 @@ void solve(){
     }
     ll result=0;
     int i=0;
-    int j=k; // pourqoui k et pas K
+    int j=k; // pourqoui k et pas K : k-0+1 >k 
     while(j<n){
         for(int l=j;l<n;l++){
           if(i==0){
@@ -35,7 +35,27 @@ void solve(){
     }
     cout << result <<endl;
 }
+void solve(){
+    int n, k;
+    cin >> n >> k;
+    vector<ll> pre(n + 1, 0);
+    for(int i = 1; i <= n; i++){
+        ll x; cin >> x;
+        pre[i] = pre[i-1] + x;
+    }
 
+    vector<int> cnt(k, 0);   // cnt[r] = nb de préfixes autorisés de reste r
+    ll result = 0;
+
+    // r = indice de fin (préfixe pre[r]), p = r-k-1 = début autorisé
+    for(int r = k + 1; r <= n; r++){
+        int p = r - k - 1;          // ce préfixe devient autorisé
+        cnt[pre[p] % k]++;
+        result += cnt[pre[r] % k];  // préfixes p' <= p de même reste
+    }
+
+    cout << result << endl;
+}
 int main(){
     Fast;
     int t;

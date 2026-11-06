@@ -28,3 +28,5 @@ int main(){
         solve();
     }
 }
+
+// why it work but i really iterative and if the numbers are not succsifes
