@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"c:\\Users\\HP\\Desktop\\codeforces\\Constestes\\Round 1135\\A.cpp","tests":[{"id":1794754452018,"input":"3\n1\n4\n5\n","output":"-1\n4 3 2 1\n4 5 3 1 2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\codeforces\\Constestes\\Round 1135\\A.cpp","group":"local","local":true}

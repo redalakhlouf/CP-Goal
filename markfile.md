@@ -38,5 +38,11 @@
    for(x:a) r|=a
 - ` << ` : to shit or crease all bits by 1 
   - int r =1 << 2 -> r=2 use like r*2 
+ # binary:
+  - pow(2,4) :: 1ll << 3 ; // 16 
+
+# pour maximiser le produit ::
+   - toujours si le le produit construit grace une somme donc essaie de la somme etre en moyen 
+   
 
 
